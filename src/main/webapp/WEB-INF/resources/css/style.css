@@ -1,0 +1,23 @@
+.container {
+	min-height: 650px;
+	
+}
+
+
+.thumbnail {
+    position: relative;
+    width: 50%;
+}
+
+.caption {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 100%;
+}
+
+.caption p {
+    color: white;
+	text-align: center;
+	font-size: 25px;
+}

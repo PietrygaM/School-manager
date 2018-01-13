@@ -1,0 +1,12 @@
+    <ul class="nav navbar-nav">
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown">Groups
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="${pageContext.request.contextPath}/studentpanel/newscast">Your data</a></li>
+        </ul>
+      </li> 
+      <li><a href="#">Account</a></li>
+    </ul>
+
+

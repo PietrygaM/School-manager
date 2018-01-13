@@ -1,3 +1,11 @@
+
+# My additions
+.classpath
+.project
+.settings
+target/
+bin/
+
 # Compiled class file
 *.class
 

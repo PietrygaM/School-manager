@@ -1,0 +1,38 @@
+    <ul class="nav navbar-nav">
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown">Groups
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="${pageContext.request.contextPath}/division/all">All groups</a></li>
+          <li><a href="${pageContext.request.contextPath}/division/add">Add group</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown">Subjects
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="${pageContext.request.contextPath}/subject/all">All subjects</a></li>
+          <li><a href="${pageContext.request.contextPath}/subject/add">Add subject</a></li>
+        </ul>
+      </li>  
+       <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown">Students
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="${pageContext.request.contextPath}/student/all">All students</a></li>
+          <li><a href="${pageContext.request.contextPath}/student/add">Add student</a></li>
+        </ul>
+      </li>
+	<li class="dropdown"><a class="dropdown-toggle"
+		data-toggle="dropdown">Teachers <span class="caret"></span></a>
+		<ul class="dropdown-menu">
+			<li><a href="${pageContext.request.contextPath}/teacher/all">All
+					teachers</a></li>
+			<li><a href="${pageContext.request.contextPath}/teacher/add">Add
+					teacher</a></li>
+		</ul></li>
+	<li><a href="#">Account</a></li>
+    </ul>
+
+
+
