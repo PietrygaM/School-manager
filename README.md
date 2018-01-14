@@ -28,13 +28,17 @@ Simple web application for teachers and students/parents to inform about grades 
 ![main menu](screenshots/01_screen.png "Main menu")
 
 - add new student
+![add new student](screenshots/02_screen.png "Add new student")
 
 - group options
+![group options](screenshots/03_screen.png "group options")
 - add mark
+![add mark](screenshots/04_screen.png "add mark")
 
 
 
 - password validation
+[password validation](screenshots/05_screen.png "password validation")
 
 
 ## Comming features
