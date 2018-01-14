@@ -73,7 +73,7 @@ public class TeacherController {
 		// used in login), first login using "admin account" with other privileges
 		@GetMapping("/addadmin")
 		public String addformGetAdmin(Model m) {
-			Teacher teacher = new Teacher("arek", "arkadiusz.jozwiak@coderslab.pl", "Arkadiusz", "Jozwiak");
+			Teacher teacher = new Teacher("teacher1", "teacher1@mail.pl", "TeacherFirstName", "TeacherLastName");
 			User u = new User(teacher.getPassword(), teacher.getEmail(), "ROLE_TEACHER"); 
 			this.userRepo.save(u);			//save in DB
 			u.setTeacher(teacher);			//set connection between student and user
