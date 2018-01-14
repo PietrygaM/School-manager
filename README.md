@@ -8,7 +8,7 @@ Simple web application for teachers and students/parents to inform about grades 
 	- add, edit, remove (group, student, subject, other teacher)
 	- add, edit marks for specyfic student (with description)	
 - Login as Student
-	- preview of own marks
+	- preview of own marks (student don’t have privileges to see other users 		data)
 
 ### Following technologies being used:
 
@@ -30,15 +30,17 @@ Simple web application for teachers and students/parents to inform about grades 
 - add new student
 ![add new student](screenshots/02_screen.png "Add new student")
 
+- delete user
+![delete user](screenshots/03_screen.png "delete user")
+
 - group options
-![group options](screenshots/03_screen.png "group options")
+![group options](screenshots/04_screen.png "group options")
+
 - add mark
-![add mark](screenshots/04_screen.png "add mark")
-
-
+![add mark](screenshots/05_screen.png "add mark")
 
 - password validation
-[password validation](screenshots/05_screen.png "password validation")
+[password validation](screenshots/06_screen.png "password validation")
 
 
 ## Comming features
