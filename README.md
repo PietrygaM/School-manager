@@ -25,6 +25,8 @@ Simple web application for teachers and students/parents to inform about grades 
 ## Screenshots - Teacher account
 
 - main menu
+![main menu](screenshots/01_screen.png "Main menu")
+
 - add new student
 
 - group options
