@@ -1,8 +1,5 @@
-﻿## ____________________________________________________________________________________________
-##
-## This application is continued as a Team Project at the address: 
-## https://github.com/PietrygaM/School-Manager-Vol.2
-## ____________________________________________________________________________________________
+﻿
+## This application is continued as a Team Project at the address: https://github.com/PietrygaM/School-Manager-Vol.2
 
 
 # School-manager
