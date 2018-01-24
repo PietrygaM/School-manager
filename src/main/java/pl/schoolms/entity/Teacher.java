@@ -23,7 +23,6 @@ import org.mindrot.jbcrypt.BCrypt;
 @Table(name = "teacher")
 public class Teacher {
 
-	//TODO add new validation and parameters
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@NotNull

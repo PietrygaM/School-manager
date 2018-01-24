@@ -1,6 +1,13 @@
-﻿# School-manager
+﻿## ____________________________________________________________________________________________
+##
+## This application is continued as a Team Project at the address: 
+## https://github.com/PietrygaM/School-Manager-Vol.2
+## ____________________________________________________________________________________________
 
-Simple web application for teachers and students/parents to inform about grades and learning progress
+
+# School-manager
+
+Simple web application for teachers and students/parents to inform about grades and learning progress.
 
 ## Basic Function
 
@@ -50,3 +57,5 @@ Simple web application for teachers and students/parents to inform about grades 
 - authentication and access-control with Spring Security
 - removing known errors and handling exception
 - more intuitive look and access to implemented features
+
+

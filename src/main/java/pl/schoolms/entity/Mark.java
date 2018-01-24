@@ -17,7 +17,6 @@ import org.hibernate.validator.constraints.NotEmpty;
 @Table(name = "mark")
 public class Mark {
 
-	//TODO add new validation and parameters
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@NotNull

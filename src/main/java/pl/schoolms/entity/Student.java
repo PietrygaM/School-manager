@@ -25,7 +25,6 @@ import org.mindrot.jbcrypt.BCrypt;
 @Table(name = "student")
 public class Student {
 
-	//TODO add new validation and parameters
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@NotNull

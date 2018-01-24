@@ -19,8 +19,6 @@ import org.mindrot.jbcrypt.BCrypt;
 @Table(name = "user")
 public class User {
 
-	// TODO Delete User entity and change database (Student.class and Teacher.class
-	// used in login), first login using "admin account" with other privileges
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@NotNull

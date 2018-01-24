@@ -14,7 +14,6 @@
 				class="text-warning">School Manager</p></a>
 	</div>
 
-
 	<c:choose>
 		<c:when test="${sessionScope.user.role=='ROLE_TEACHER'}">
 			<%@ include file="../jspf/teacher_menu.jspf"%>

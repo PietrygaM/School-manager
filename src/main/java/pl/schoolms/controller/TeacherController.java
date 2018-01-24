@@ -69,8 +69,6 @@ public class TeacherController {
 			return "redirect:/teacher/add";
 		}
 		
-		// TODO Delete User entity and change database (Student.class and Teacher.class
-		// used in login), first login using "admin account" with other privileges
 		@GetMapping("/addadmin")
 		public String addformGetAdmin(Model m) {
 			Teacher teacher = new Teacher("teacher1", "teacher1@mail.pl", "TeacherFirstName", "TeacherLastName");
@@ -118,58 +116,6 @@ public class TeacherController {
 		return "redirect:/teacher/all";
 	}
 	
-	// TEST -------------------------------------------------------------------------------------------------------- \
-//	@GetMapping("/addTeacherToStudent/{tid}/{sid}")
-//	@ResponseBody
-//	public String addRoleToUser(@PathVariable long tid, @PathVariable long sid) {
-//		Teacher t = this.teacherRepo.findById(tid);
-//		Student s = this.studentRepo.findById(sid);
-//		t.setStudent(s);
-//		this.teacherRepo.save(t);
-//		return "added";
-//	}
-	
-//	@GetMapping("/addTeacherToStudent1") // => nie działa
-//	@ResponseBody
-//	public String addRoleToUser1() {
-//		Teacher t = this.teacherRepo.findById(1l);
-//		Student s = this.studentRepo.findById(1l);
-//		//t.setStudent(s);
-//		s.setTeacher(t);
-//		this.studentRepo.save(s);
-//		return "added";
-//	}
-	
-//	@GetMapping("/addTeacherToStudent2")  // => Prawidłowe dodanie relacji @OneToOne; pobieramy dane i zapisujemy w child
-//	@ResponseBody
-//	public String addRoleToUser2() {
-//		Teacher t = this.teacherRepo.findById(4l);
-//		Student s = this.studentRepo.findById(4l);
-//		t.setStudent(s);
-//		//s.setTeacher(t);
-//		this.teacherRepo.save(t);
-//		return "added";
-//	}
-	
-//	@GetMapping("{id}/listadd")
-//	public String listadd(@PathVariable long id,Model m) {
-//		Teacher tmpTeacher = this.teacherRepo.findById(id);
-//		m.addAttribute("setTeacher", tmpTeacher);
-//		return "teacher/listadd";
-//	}
-//	
-//	@PostMapping("{id}/listadd")
-//	@Transactional
-//	public String listadd(@PathVariable long id, @ModelAttribute Teacher tmpTeacher) {	
-//		Teacher teacher = this.teacherRepo.findById(id);
-//		teacher.setStudent(tmpTeacher.getStudent());
-//		this.teacherRepo.save(teacher);
-//		return "redirect:/teacher/listconn";
-//	}
-	
-
-	
-	// TEST -------------------------------------------------------------------------------------------------------- /
 	
 	// -------------------------------------------------- MODEL ATTRIBUTE --------------------------------------------
 

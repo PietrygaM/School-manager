@@ -70,7 +70,4 @@ public class HomeController {
 		return "redirect:/home";
 	}
 
-	// TODO Delete User entity and change database (Student.class and Teacher.class
-	// used in login), first login using "admin account" with other privileges
-
 }
